@@ -105,3 +105,15 @@
 #     print(f"{soz_soni}. {soz}")
 # print(f"Jami so'zlar soni: {soz_soni}")
 #15-masala
+n = 5
+t = ''
+for qator in range(1, n + 1):
+    for boosh in range(n - qator):
+        print(" ", end="")
+    for yul in range(2 * qator - 1):
+        print("*", end="")
+    for qato in range(1, n-1):
+        print("", end="")
+    for ch in range (2 * qator +1):
+        print("*", end="")
+print()
