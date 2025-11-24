@@ -105,15 +105,36 @@
 #     print(f"{soz_soni}. {soz}")
 # print(f"Jami so'zlar soni: {soz_soni}")
 #15-masala
-n = 5
-t = ''
-for qator in range(1, n + 1):
-    for boosh in range(n - qator):
-        print(" ", end="")
-    for yul in range(2 * qator - 1):
-        print("*", end="")
-    for qato in range(1, n-1):
-        print("", end="")
-    for ch in range (2 * qator +1):
-        print("*", end="")
-print()
+# maniki
+# n = 5
+# t = ''
+# for qator in range(1, n + 1):
+#     for boosh in range(n - qator):
+#         print(" ", end="")
+#     for yul in range(2 * qator - 1):
+#         print("*", end="")
+#     for qato in range(1, n-1):
+#         print("", end="")
+#     for ch in range (2 * qator +1):
+#         print("*", end="")
+# print()
+#chatgibiti
+# # Yuqori qism (piramida)
+# for i in range(1, 6):  # 1 dan 5 gacha qatorlar
+#     # Bo'sh joylar
+#     for j in range(5 - i):
+#         print(" ", end="")
+#     # Yulduzchalar
+#     for k in range(2 * i - 1):
+#         print("*", end="")
+#     print()  # Keyingi qatorga o'tish
+#
+# # Pastki qism (teskari piramida)
+# for i in range(4, 0, -1):  # 4 dan 1 gacha qatorlar
+#     # Bo'sh joylar
+#     for j in range(5 - i):
+#         print(" ", end="")
+#     # Yulduzchalar
+#     for k in range(2 * i - 1):
+#         print("*", end="")
+#     print()  # Keyingi qatorga o'tish
